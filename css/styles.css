@@ -934,7 +934,7 @@ img {
                 width: 100%;
                 flex-direction: none;
                 align-items: none;
-                justify-content: none;}
+                justify-content: start;}
         
                 .footer-form-input-description {
                     font-weight: 500;
