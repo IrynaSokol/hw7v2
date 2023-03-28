@@ -49,6 +49,10 @@ img {
     overflow: hidden;
 }
 
+body {
+    font-family: var(--primary-font);}
+
+
 @media screen and (min-width: 480px) {
     .container {
         width: 428px;
@@ -83,6 +87,7 @@ img {
         margin-right: 76px;
         padding-top: 24px;
         padding-bottom: 24px;
+        
                 }
         .logotype-header span {
                     color: var(--primary-text-color);}
@@ -421,17 +426,18 @@ img {
                
         .customers-item {
         display: flex;
-        gap: 24px;
         flex-wrap: wrap;
         row-gap: 72px;
-        column-gap: 24px;}
+        column-gap: 24px;
+        align-items: center;
+        justify-content: center;}
 
         .customers-list-li{
             flex-wrap: wrap;
             display: flex;
             align-items: center;
             justify-content: center;
-            width: calc(100%-24px)/3;
+            /* width: calc(100%-24px)/3; */
             height: 88px;
 
         }
@@ -474,6 +480,7 @@ img {
 } */
 
 .footer-text{
+    display: flex;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;;
@@ -482,7 +489,6 @@ img {
     color: var(--footer-logo-color);
     width: 264px;
     height: 72px;
-    text-align: center;
     align-items: center;
     justify-content: center;
     fill: solid var(--footer-logo-color);
@@ -507,8 +513,7 @@ img {
     text-transform: uppercase;
     color: var(--accent-color);
     margin-bottom: 16px;
-    align-items: center;
-    justify-content: center;
+  
     text-align: center;
 }
 
@@ -525,6 +530,15 @@ img {
     letter-spacing: 0.02em;
     color: var(--main-white-color);
     margin-bottom: 16px;
+}
+
+.footer-container {
+    flex-wrap: wrap;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 72px;
 }
 
 .social-media-footer{
@@ -652,21 +666,21 @@ img {
     
         .portfolio-section {
             flex-wrap: wrap;
-            /* padding-bottom: 120px;
-            padding-top: 96px; */
-            border: 1px solid var(--footer-logo-color);
+            padding-bottom: 48px;
+            /* padding-top: 48px; */ 
+            border-top:  1px solid var(--footer-logo-color);
+            box-shadow: 1px 0px 0px 2px rgba(46, 47, 66, 0.08);
         }
     
         .menu-navigation {
             display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 72px;
-        }
-    
-    
-        .menu-portfolio-list:not(:last-child) {
-            margin-right: 24px;
+            flex-wrap: wrap;
+            align-items: start;
+            justify-content: start;
+            margin-top: 48px;
+            margin-bottom: 48px;
+            column-gap: 24px;
+            row-gap: 16px;
         }
     
     
@@ -894,6 +908,58 @@ img {
         .contact-phone:focus {
             color: var(--accent-color);
         }
+                /* HERO TABLET */
+        
+        .hero {
+        background-color: var(--primary-text-color);
+        padding-top: 112px;
+        padding-bottom: 112px;
+        margin: auto;
+        text-align: center;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office768.jpg);
+        background-size: cover;}
+        
+        @media (min-resolution: 2dppx) {
+        .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office@2x768.jpg);}}
+        
+        .hero-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+                    color: var(--main-white-color);
+                    margin-top: 0px;
+                    margin-right: auto;
+                    margin-bottom: 72px;
+                    margin-left: auto;
+                }
+        
+                .modal-btn {
+                    padding-top: 16px;
+                    padding-bottom: 16px;
+                    padding-left: 32px;
+                    padding-right: 32px;
+                    text-decoration: none;
+                    font-family: inherit;
+                    cursor: pointer;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 1.5;
+                    letter-spacing: 0.04em;
+                    color: var(--main-white-color);
+                    background: var(--accent-color);
+                    margin: 0 auto;
+                    border: 1px solid var(--accent-color);
+                    border-radius: 4px;
+                    transition: background-color var(--transition-dur-and-func);
+                }
+        
+                .modal-btn:hover,
+                .modal-btn:focus {
+                    background-color: var(--accent-color-portfolio);
+                    color: var(--main-white-color);
+                }
     
         /* SECTION 1 TABLET Web Studio*/
 
@@ -1052,7 +1118,7 @@ img {
         color: var(--footer-logo-color);
         width: 264px;
         height: 72px;
-        text-align: start;
+        /* text-align: start; */
                 }
         
                 .logotype-footer {
@@ -1513,10 +1579,15 @@ img {
             padding-bottom: 188px;
             margin: auto;
             text-align: center;
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-1200.jpg);
             max-width: 1440px;
             background-size: cover;
         }
+        @media (min-resolution: 2dppx) {
+                     .hero {
+                         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(..//images/people-office@2x1200.jpg);
+                     }
+                 }
     
         .hero-title {
             font-weight: 700;
