@@ -329,7 +329,7 @@ body {
         line-height: 1.28;
         letter-spacing: 0.02em;
         color: var(--secondary-text-color);
-        margin-bottom: 72px;
+        row-gap: 72px;
        }
 
        /* .goals-item-text:not(:last-child) {
