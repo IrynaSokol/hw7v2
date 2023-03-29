@@ -981,7 +981,9 @@ body {
         .goals {
         display: flex;
         flex-wrap: wrap;
-        gap: 24px;
+        column-gap: 24px;
+        row-gap: 56px;
+        /* gap: 24px; */
         list-style: none;}
         
         .goals-item {
@@ -1003,6 +1005,7 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--secondary-text-color);
+        margin-bottom: 0;
                 }
 
         /* SECTION 3 TABLET Web Studio*/
