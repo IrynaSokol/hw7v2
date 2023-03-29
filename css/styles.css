@@ -183,7 +183,7 @@ body {
         font-weight: 700;
         font-size: 36px;
         margin-top: 254px;
-        Font-style: Bold;
+        /* Font-style: Bold; */
         line-height: 1.1;
         letter-spacing: 0.02em;
         color: var(--accent-color);
@@ -307,23 +307,24 @@ body {
             padding-bottom: 96px;}
 
 
-        .goals-item-header {
+         .goals-item-header {
         text-decoration: none;
         font-weight: 700;
-        font-style: bold;
+        /* font-style: bold; */
         font-size: 36px;
         line-height: 1.1;
         letter-spacing: 0.02em;
         color: var(--primary-text-color);
         margin-bottom: 8px;
-        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
         justify-content: center;
         align-items: center;
     }
         
         .goals-item-text {
         font-weight: 500;
-        font-style: bold;
+        /* font-style: bold; */
         font-size: 16px;
         line-height: 1.28;
         letter-spacing: 0.02em;
@@ -477,15 +478,13 @@ body {
     background-color:var(--primary-text-color);
     padding-top: 100px;
     padding-bottom: 100px;
+    
 }
 
-/* .footer-container{
+.footer-container{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 72px;
-} */
+
+}
 
 .footer-text{
     display: flex;
@@ -998,7 +997,7 @@ body {
         color: var(--primary-text-color);}
         
         .goals-item-text {
-        font-style: bold;
+        /* font-style: bold; */
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -1094,6 +1093,7 @@ body {
         /* FOOTER TABLET Web Studio*/
 
          .footer-section {
+
         background-color: var(--primary-text-color);
                     padding-top: 100px;
                     padding-bottom: 100px;
@@ -1103,14 +1103,14 @@ body {
         .footer-three-div{
         width: 565px;}
 
-        /* .footer-container {
-        display: flex;
+         .footer-container {
+        /* display: flex;
         margin: auto;
-            flex-direction: column;
-            align-items: start;
-                    justify-content: start;
-                    margin-bottom: 72px;
-                } */
+        flex-direction: column; */
+        align-items: start;
+        /* justify-content: start;
+        margin-bottom: 72px; */
+                }
         
         .footer-two-div{
             display: flex;
@@ -1465,9 +1465,11 @@ body {
         }
     
         .menu-contact {
+            flex-wrap: nowrap;
             display: flex;
             align-items: center;
             margin-left: auto;
+            flex-direction: row;
         }
     
         .contact-email {
@@ -1817,6 +1819,7 @@ body {
             line-height: 1.2;
             letter-spacing: 0.02em;
             color: var(--primary-text-color);
+            text-align: start;
         }
     
         .goals-item-text {
