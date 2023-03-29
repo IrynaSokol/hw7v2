@@ -132,7 +132,15 @@ body {
         pointer-events: none;
         transition: var(--transition-dur-and-func);
         background-color: var(--modal-backgroud-color);
+        padding-left: 40px;
+        padding-bottom: 40px;}
+
+        .menu-mobile-link{
+            margin-left: -20x;
         }
+      
+       
+        
         .mobile-menu-contacts{
             margin-top: auto;
         }
@@ -151,9 +159,9 @@ body {
     
         .mobile-menu-container {
         position: relative;
-        /* padding-top: 80px; */
-        padding-left: 40px;
-        padding-bottom: 40px; 
+        padding-top: 80px;
+        /* padding-left: 40px;
+        padding-bottom: 40px;  */
         }
 
         .menu-link-mobile{
@@ -212,7 +220,7 @@ body {
 
     .social-list-mobile {
         display: flex;
-            justify-content: space-between;
+      
             gap: 56px;}
         /* margin-top: 48px;} */
 
