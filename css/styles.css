@@ -151,7 +151,7 @@ body {
     
         .mobile-menu-container {
         position: relative;
-        padding-top: 80px;
+        /* padding-top: 80px; */
         padding-left: 40px;
         padding-bottom: 40px; 
         }
@@ -213,8 +213,8 @@ body {
     .social-list-mobile {
         display: flex;
             justify-content: space-between;
-            gap: 56px;
-        margin-top: 48px;}
+            gap: 56px;}
+        /* margin-top: 48px;} */
 
         .social-list-link-mobile {
         display: flex;
