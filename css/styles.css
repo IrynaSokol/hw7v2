@@ -305,7 +305,7 @@ body {
       
         .goals-section {
             padding-top: 96px;
-            padding-bottom: 24px;}
+            padding-bottom: 96px;}
 
 
          .goals-item-header {
@@ -1101,7 +1101,8 @@ body {
         }
       
         .footer-three-div{
-        width: 565px;}
+        width: 565px;
+    margin: auto;}
 
          .footer-container {
         /* display: flex;
@@ -2048,6 +2049,7 @@ body {
         .footer-three-div {
             display: flex;
             gap: 80px;
+            margin: 0;
         }
     
         .social-list-footer {
