@@ -297,6 +297,7 @@ body {
          .goals-item-box{
             flex-wrap: wrap;
             width: calc(100%-24px)/2;
+
          }
         .goals-item-box{
             display: none;
@@ -304,7 +305,7 @@ body {
       
         .goals-section {
             padding-top: 96px;
-            padding-bottom: 96px;}
+            padding-bottom: 24px;}
 
 
          .goals-item-header {
@@ -321,6 +322,7 @@ body {
         justify-content: center;
         align-items: center;
     }
+
         
         .goals-item-text {
         font-weight: 500;
@@ -329,12 +331,10 @@ body {
         line-height: 1.28;
         letter-spacing: 0.02em;
         color: var(--secondary-text-color);
-        row-gap: 72px;
+        margin-bottom: 72px;
        }
 
-       /* .goals-item-text:not(:last-child) {
-        margin-bottom: 72px; */
-    
+     
 
         /* SECTION 2 MOBILE Web Studio */
                 
