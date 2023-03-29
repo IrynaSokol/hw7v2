@@ -296,9 +296,10 @@ body {
             flex-wrap: wrap;
             width: calc(100%-24px)/2;
          }
-        .goals-list-icon{
+        .goals-item-box{
             display: none;
         }
+      
         .goals-section {
             padding-top: 96px;
             padding-bottom: 96px;}
@@ -328,9 +329,9 @@ body {
         margin-bottom: 72px;
        }
 
-       .goals-item-text:not(:last-child) {
-        margin-bottom: 72px;
-    }
+       /* .goals-item-text:not(:last-child) {
+        margin-bottom: 72px; */
+    
 
         /* SECTION 2 MOBILE Web Studio */
                 
@@ -968,7 +969,7 @@ body {
     
         /* SECTION 1 TABLET Web Studio*/
 
-        .goals-list-icon {
+        .goals-item-box {
         display: none;
                   }
 
