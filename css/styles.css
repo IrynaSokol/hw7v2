@@ -227,6 +227,7 @@ body {
 
     .social-list-mobile {
         display: flex;
+        flex-wrap: wrap;
         gap: 56px;}
         /* margin-top: 48px;} */
 
