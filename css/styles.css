@@ -25,6 +25,7 @@ h1,h2,h3,p, ul,ol {
 img {
     display: block;
     max-width: 100%;
+    height: auto;
 }
 
 .list {
