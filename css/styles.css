@@ -583,6 +583,13 @@ body {
         
          /* SECTION 1 MOBILE Web Studio*/
 
+         .goals{
+
+           display: flex;
+           flex-wrap: wrap;
+           row-gap: 72px;
+           list-style: none;}
+
          .goals-item-box{
             flex-wrap: wrap;
             width: calc(100%-24px)/2;
@@ -620,7 +627,7 @@ body {
         line-height: 1.28;
         letter-spacing: 0.02em;
         color: var(--secondary-text-color);
-        margin-bottom: 72px;
+        /* margin-bottom: 72px; */
        }
 
      
@@ -1199,8 +1206,6 @@ body {
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: var(--secondary-text-color);
-            padding-top: 24px;
-            padding-bottom: 24px;
             transition: color var(--transition-dur-and-func);
         }
     
@@ -1218,7 +1223,7 @@ body {
         .hero {
         background-color: var(--primary-text-color);
         padding-top: 112px;
-        padding-bottom: 204px;
+        padding-bottom: 112px;
         margin: auto;
         text-align: center;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office768.jpg);
@@ -1282,7 +1287,6 @@ body {
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 56px;
-        /* gap: 24px; */
         list-style: none;}
         
         .goals-item {
