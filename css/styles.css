@@ -217,6 +217,7 @@ body {
 
 .modal-form-check-desc {
     display: flex;
+    /* flex-wrap: wrap; */
     align-items: center;
     font-size: 12px;
     margin-bottom: 24px;
@@ -1458,6 +1459,7 @@ body {
                 }
         
                 .footer-text-social {
+                    text-align: start;
                     font-weight: 500;
                     font-size: 16px;
                     line-height: 1.5;
@@ -2358,6 +2360,7 @@ body {
             letter-spacing: 0.02em;
             color: var(--main-white-color);
             margin-bottom: 16px;
+            text-align: start;
         }
     
     
