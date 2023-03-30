@@ -578,9 +578,9 @@ body {
 
         /* SECTION 2 MOBILE Web Studio */
                 
-        .work-section {
+        /* .work-section {
         display: none;
-                }
+                } */
 
         /* SECTION 3 MOBILE Web Studio */
 
@@ -1260,9 +1260,9 @@ body {
 
         /* SECTION 3 TABLET Web Studio*/
 
-        .work-section {
+        /* .work-section {
         padding-bottom: 96px;
-                }
+                } */
         
         .work {
         display: flex;
@@ -2443,4 +2443,9 @@ body {
 
 }
 
- 
+@media screen and (max-width: 1199px) {
+.work-section {
+        display: none;
+    }
+
+}
